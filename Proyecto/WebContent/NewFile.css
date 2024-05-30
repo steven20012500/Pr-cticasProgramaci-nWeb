@@ -1,0 +1,103 @@
+
+@charset "ISO-8859-1";
+p{
+	color: black;
+}
+h1{
+	font-size: 24px;
+	text-align : center
+}
+h2 {
+	text-align : center;
+}
+
+.contenedor {
+    text-align: center; /* Alinea el contenido del contenedor al centro */
+}
+
+.contenedor a {
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+}
+.Imagen {
+	text-align: center;
+}
+.Imagen img{
+	display: block; /* Esto asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente dentro del div */
+    width: 200px; /* Cambia el ancho de la imagen según lo deseado */
+    height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+.boton {
+    text-align: center; /* Centra los elementos hijos horizontalmente */
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+}
+
+.boton button {
+    /* Estilos adicionales para el botón si es necesario */
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    font-size: 16px; /* Ajusta el tamaño de la fuente según sea necesario */
+    /* Puedes agregar más estilos según tus preferencias */
+}
+.navbar {
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+/* Estilos para los enlaces dentro de la barra de navegación */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+header {
+  background-color: #87CEEB; /* Color celeste */
+  padding: 20px 10px; /* Espaciado interno */
+}
+.agrupar{
+	border:1px;
+	margin: auto;
+	width:960px;
+}
+
+section {
+	margin:20px;
+	width: 600px;
+	float:left;
+}
+
+aside {
+	margin: 20px;
+	padding: 30px;
+	width: 200px;
+	border: 1px;
+	float: right;
+	background-color: #87CEEB;
+	align-items: center;
+}
+footer{
+	overflow: hidden;
+	 background-color: #87CEEB;
+	 padding: 20px 10px;
+	 text-align: center;
+ 	clear:both;
+}
+
+footer li{
+	list-style: none;
+	font:bold 14px verdana;
+	padding: 10px;
+	display: inline-block;
+}
+	
+
+
+/*HAcer una pagina donde ver los productos, otra donde se pueda ingresar los datos y registrarse o crear cuenta conectarse a  la base de datos ,
+otra pagina donde , otra pagina , informacion y contacto en todos .<section> usar para que todo se mantenga igual Hacer hasta el lunes</section>*/
+
